@@ -1,9 +1,9 @@
 <h1>Bibi Gun Readme</h1>
 <p>In this game we added :
-<li>
-	<ul> Controling the enemy spanwer by animation </ul>
-	<ul> Sound effects  </ul>
-	<ul> Pause menu </ul>
-</li>
+<ul>
+	<li> Controling the enemy spanwer by animation </li>
+	<li> Sound effects  </li>
+	<li> Pause menu </li>
+</ul>
 
  </p>
