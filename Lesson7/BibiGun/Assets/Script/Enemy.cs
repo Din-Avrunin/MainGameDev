@@ -64,7 +64,6 @@ public class Enemy : MonoBehaviour
             {
                 _player.AddScore();
                 StartCoroutine(Explode());
-                //Destroy(this.gameObject);
             }
         }
     }
