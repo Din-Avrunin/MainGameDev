@@ -7,4 +7,5 @@
 	<li> Controling the enemy spanwer by animation </li>
 	<li> Sound effects  </li>
 	<li> Pause menu </li>
+	</ul>
 </p>
