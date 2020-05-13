@@ -7,12 +7,12 @@ Demo in itch.io : https://noamdom.itch.io/bibigun
 
 
 ### Rules and control: 
-* Do not touch the cows
+* Do not touch the cows.
 * collect the power up bebbles to increase your shooting power
-* you have 3 lives
-* laser shooting - space key
-* rastart game - 'R' key
-* pausing game - 'P' key
+* you have 3 lives.
+* laser shooting - space key.
+* rastart game - 'R' key.
+* pausing game - 'P' key.
 
 ### Exercise requirements: 
 `We implemented sections 1, 3 and 5 in part A.`
