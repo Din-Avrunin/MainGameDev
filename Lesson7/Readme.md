@@ -18,7 +18,7 @@ Demo in itch.io : https://noamdom.itch.io/bibigun
 `We implemented sections 1, 3 and 5 in part A.`
 
 #### section 1 - dramatic flow
-* We canceled the constant time changing in [this scirpt]("https://github.com/dobzik/MainGameDev/blob/master/Lesson7/BibiGun/Assets/Script/SpawnManager.cs") (The comment code)
+* We canceled the constant time changing in [this scirpt](https://github.com/dobzik/MainGameDev/blob/master/Lesson7/BibiGun/Assets/Script/SpawnManager.cs) (The comment code)
 
 * We added SpawnManger animation that control the waiting time between spawns. The player feel how easy the flow at the begin, and how tempo of enemy attack is increasing each loop
 
