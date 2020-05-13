@@ -31,7 +31,7 @@ We implemented sections 1, 3 and 5 in part A.
 * We added cow's sound affect
 	* Downloaded from: https://www.fesliyanstudios.com/royalty-free-sound-effects-download/cow-264
 	* [This script](https://github.com/dobzik/MainGameDev/blob/master/Lesson7/BibiGun/Assets/Script/RandomMoo.cs) handle the random 'moo' playing.
-* We added explosion anumation for the com: [in this script](https://github.com/dobzik/MainGameDev/blob/master/Lesson7/BibiGun/Assets/Script/Enemy.cs) - see the the Explode function.
+* We added explosion anumation for the com: [in this script](https://github.com/dobzik/MainGameDev/blob/master/Lesson7/BibiGun/Assets/Script/Enemy.cs#L71-L82) - see the the Explode function.
 
 #### section 5 - pausing menu
 * Most of the work was in designing the menu.
