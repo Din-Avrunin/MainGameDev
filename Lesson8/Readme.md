@@ -3,7 +3,7 @@
 ### Game description:
 In the game you play with the Gimli dwarf , tring to atchive all the flags, by jumping up, until you find it.
 
-Demo in itch.io : 
+Demo in itch.io : https://aripash.itch.io/icy-doodle
 
 
 ## Control and Rules:
@@ -16,13 +16,15 @@ Demo in itch.io :
  Excercies Requirement:
 #### physics object
 * All the player movement is managed [here](https://github.com/dobzik/MainGameDev/blob/master/Lesson8/icy%20doodle/Assets/Script/Move.cs)
-* The camera movement and defeat is handle [here](https://github.com/dobzik/MainGameDev/blob/master/Lesson8/icy%20doodle/Assets/Script/GameManager.cs) [and here] (https://github.com/dobzik/MainGameDev/blob/master/Lesson8/icy%20doodle/Assets/Script/follow_player.cs)
+* The camera movement and defeat is handle:
+    * [here](https://github.com/dobzik/MainGameDev/blob/master/Lesson8/icy%20doodle/Assets/Script/GameManager.cs) 
+    * [and here](https://github.com/dobzik/MainGameDev/blob/master/Lesson8/icy%20doodle/Assets/Script/follow_player.cs)
 
 
 
 ### Manage levels
-* The start/end game is managed [here] (https://github.com/dobzik/MainGameDev/blob/master/Lesson8/icy%20doodle/Assets/Script/GameMenu.cs)
-* The transition between levels and defeats is managed [here] (https://github.com/dobzik/MainGameDev/blob/master/Lesson8/icy%20doodle/Assets/Script/GameManager.cs)
+* The start/end game is managed [here](https://github.com/dobzik/MainGameDev/blob/master/Lesson8/icy%20doodle/Assets/Script/GameMenu.cs)
+* The transition between levels and defeats is managed [here](https://github.com/dobzik/MainGameDev/blob/master/Lesson8/icy%20doodle/Assets/Script/GameManager.cs)
 
 
 
