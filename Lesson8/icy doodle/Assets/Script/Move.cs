@@ -33,6 +33,7 @@ public class Move : MonoBehaviour
         return rc.collider != null;
     }
 
+    // while player landing on 'movingPlatform'
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag.Equals("movingPlatform"))
@@ -41,8 +42,7 @@ public class Move : MonoBehaviour
         }
 
     }
-
-
+    // while player leave the 'movingPlatform'
     void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.tag.Equals("movingPlatform"))
