@@ -584,7 +584,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1111,7 +1111,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1303891671
 GameObject:
@@ -1162,6 +1162,7 @@ MonoBehaviour:
   Player: {fileID: 227440228}
   Camera: {fileID: 519420032}
   maxLevel: 5
+  fail_Hight: 5
 --- !u!1 &1382998067
 GameObject:
   m_ObjectHideFlags: 0

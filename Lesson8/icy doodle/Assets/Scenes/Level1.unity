@@ -244,7 +244,7 @@ PrefabInstance:
     - target: {fileID: 7638379644273259329, guid: 580c8f5868589b94695242c04fbc4fa2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7638379644273259329, guid: 580c8f5868589b94695242c04fbc4fa2,
         type: 3}
@@ -313,7 +313,7 @@ PrefabInstance:
     - target: {fileID: 7638379644273259329, guid: 580c8f5868589b94695242c04fbc4fa2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7638379644273259329, guid: 580c8f5868589b94695242c04fbc4fa2,
         type: 3}
@@ -481,11 +481,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -560,7 +560,7 @@ PrefabInstance:
     - target: {fileID: 7638379644273259329, guid: 580c8f5868589b94695242c04fbc4fa2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7638379644273259329, guid: 580c8f5868589b94695242c04fbc4fa2,
         type: 3}
@@ -707,7 +707,7 @@ PrefabInstance:
     - target: {fileID: 1585862810617925899, guid: 0dc01178ab8a0e3469c9575d0299bc49,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 1585862810617925899, guid: 0dc01178ab8a0e3469c9575d0299bc49,
         type: 3}
@@ -776,7 +776,7 @@ PrefabInstance:
     - target: {fileID: 7638379644273259329, guid: 580c8f5868589b94695242c04fbc4fa2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7638379644273259329, guid: 580c8f5868589b94695242c04fbc4fa2,
         type: 3}
@@ -915,6 +915,7 @@ MonoBehaviour:
   Player: {fileID: 227440228}
   Camera: {fileID: 519420032}
   maxLevel: 5
+  fail_Hight: 5
 --- !u!1 &1382998067
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,7 +1139,7 @@ PrefabInstance:
     - target: {fileID: 7638379644273259329, guid: 580c8f5868589b94695242c04fbc4fa2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7638379644273259329, guid: 580c8f5868589b94695242c04fbc4fa2,
         type: 3}
@@ -1207,7 +1208,7 @@ PrefabInstance:
     - target: {fileID: 7638379644273259329, guid: 580c8f5868589b94695242c04fbc4fa2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7638379644273259329, guid: 580c8f5868589b94695242c04fbc4fa2,
         type: 3}
@@ -1423,7 +1424,7 @@ PrefabInstance:
     - target: {fileID: 7638379644273259329, guid: 580c8f5868589b94695242c04fbc4fa2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7638379644273259329, guid: 580c8f5868589b94695242c04fbc4fa2,
         type: 3}
@@ -1497,7 +1498,7 @@ PrefabInstance:
     - target: {fileID: 79749167490661292, guid: 2b9137eea9214cb4287f82547099b00c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 79749167490661292, guid: 2b9137eea9214cb4287f82547099b00c,
         type: 3}
@@ -1561,7 +1562,7 @@ PrefabInstance:
     - target: {fileID: 7638379644273259329, guid: 580c8f5868589b94695242c04fbc4fa2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7638379644273259329, guid: 580c8f5868589b94695242c04fbc4fa2,
         type: 3}
@@ -1630,7 +1631,7 @@ PrefabInstance:
     - target: {fileID: 1585862810617925899, guid: 0dc01178ab8a0e3469c9575d0299bc49,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1585862810617925899, guid: 0dc01178ab8a0e3469c9575d0299bc49,
         type: 3}
@@ -1773,7 +1774,7 @@ PrefabInstance:
     - target: {fileID: 4960934962977513488, guid: ccccaeb603242a94094c5180f0f5f7b1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4960934962977513488, guid: ccccaeb603242a94094c5180f0f5f7b1,
         type: 3}

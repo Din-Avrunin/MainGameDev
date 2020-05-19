@@ -12,6 +12,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] Transform Player;
     [SerializeField] Transform Camera;
     [SerializeField] int maxLevel=5;
+    [SerializeField] float fail_Hight = 5;
     Boolean win=false;
     public IEnumerator goal()
     {
@@ -24,7 +25,7 @@ public class GameManager : MonoBehaviour
     }
     private void Update()
     {
-        if (Player.position.y + 5f <= Camera.position.y && !win)
+        if (Player.position.y + fail_Hight <= Camera.position.y && !win)
         {
             StartCoroutine( fail());
         }   

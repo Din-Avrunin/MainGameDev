@@ -510,7 +510,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1091,6 +1091,7 @@ MonoBehaviour:
   Player: {fileID: 227440228}
   Camera: {fileID: 519420032}
   maxLevel: 5
+  fail_Hight: 5
 --- !u!1001 &1364194155
 PrefabInstance:
   m_ObjectHideFlags: 0
