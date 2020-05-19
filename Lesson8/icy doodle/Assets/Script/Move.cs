@@ -32,7 +32,26 @@ public class Move : MonoBehaviour
         RaycastHit2D rc = Physics2D.BoxCast(body.bounds.center, body.bounds.size,0f,Vector2.down, .1f, filterMask);
         return rc.collider != null;
     }
-   
-    
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag.Equals("movingPlatform"))
+        {
+            this.transform.parent = collision.transform;
+        }
+
+    }
+
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag.Equals("movingPlatform"))
+        {
+            this.transform.parent = null;
+        }
+
+    }
+
+
 
 }

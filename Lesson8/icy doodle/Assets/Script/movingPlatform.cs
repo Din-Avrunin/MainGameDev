@@ -32,29 +32,7 @@ public class movingPlatform : MonoBehaviour
         }
         transform.position = Vector3.MoveTowards(transform.position, nextpos, Time.deltaTime*speed);
     }
-    /*  public void OnCollisionStay2D(Collision2D collision)
-      {
-          if (collision.gameObject.tag == "Player")
-          {
-              int right = 1;
-              if (!isRight) right = -1;
-              Debug.Log(new Vector2(Time.deltaTime * speed * right * 5, collision.rigidbody.velocity.y));
-              collision.rigidbody.velocity = new Vector2(collision.rigidbody.velocity.x+  (speed * right), collision.rigidbody.velocity.y);
-          }*/
-   /* public void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            collision.transform.parent = transform;
-        }
-    }
-    public void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            collision.transform.parent = null;
-        }
-    }*/
+   
 
 }
 
