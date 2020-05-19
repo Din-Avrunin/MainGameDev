@@ -27,7 +27,63 @@ PrefabInstance:
     - target: {fileID: 5588772984112371312, guid: e5b09d3304363bb4a827f1b134af2316,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 11.7
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588772984112371312, guid: e5b09d3304363bb4a827f1b134af2316,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588772984112371313, guid: e5b09d3304363bb4a827f1b134af2316,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f02b567a50e7f5c4eab6bb6c7e81690d,
+        type: 3}
+    - target: {fileID: 5588772984112371313, guid: e5b09d3304363bb4a827f1b134af2316,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588772984112371313, guid: e5b09d3304363bb4a827f1b134af2316,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588772984112371313, guid: e5b09d3304363bb4a827f1b134af2316,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588772984112371326, guid: e5b09d3304363bb4a827f1b134af2316,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: 0.0753113
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588772984112371326, guid: e5b09d3304363bb4a827f1b134af2316,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588772984112371326, guid: e5b09d3304363bb4a827f1b134af2316,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588772984112371326, guid: e5b09d3304363bb4a827f1b134af2316,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 0.7959616
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588772984112371326, guid: e5b09d3304363bb4a827f1b134af2316,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 0.054391384
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588772984112371326, guid: e5b09d3304363bb4a827f1b134af2316,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 0.9047452
       objectReference: {fileID: 0}
     - target: {fileID: 7960953749201212726, guid: e5b09d3304363bb4a827f1b134af2316,
         type: 3}
