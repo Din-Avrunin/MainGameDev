@@ -41,7 +41,7 @@ public class movingPlatform : MonoBehaviour
               Debug.Log(new Vector2(Time.deltaTime * speed * right * 5, collision.rigidbody.velocity.y));
               collision.rigidbody.velocity = new Vector2(collision.rigidbody.velocity.x+  (speed * right), collision.rigidbody.velocity.y);
           }*/
-    public void OnTriggerEnter2D(Collider2D collision)
+   /* public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
@@ -54,7 +54,7 @@ public class movingPlatform : MonoBehaviour
         {
             collision.transform.parent = null;
         }
-    }
+    }*/
 
 }
 
