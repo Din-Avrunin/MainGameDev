@@ -6,9 +6,10 @@ In this game you will play with the Gimli dwarf , try to achieve all the flags, 
 Demo in itch.io : https://aripash.itch.io/icy-doodle
 
 
-## Control and Rules:
+## Rules and Control:
  * Right and Left arrow to move right  and left.
- * Jump with space. 
+ * Jump with space.
+ * The camera rises at a steady pace don't let it get you.
  * Do not touch the bad smilies, they dangerous.
  * Tip: Try to use the wall for higher Jump (it's a feature).
  * Your goal: Jump up until you got the flag.
