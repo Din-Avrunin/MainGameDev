@@ -29,11 +29,11 @@ Demo in itch.io : https://aripash.itch.io/icy-doodle
 
 ## Levels Design:
 We had 5 levels in this game, each level the difficulty is getting harder.
-* level 1 - inlclude large paltforms, in zigzag order 
-* level 2 - Has a smaller paltrforms, and the gap between them is bigger
-* level 3 : We added moving paltforms 
-* level 4 : Has enemies (smilies) , each touch wiil defeat the player return to the level's begin
-* level 5 : mix of all the aspects, it's require a high control in the player movement and his jumps.
+* Level 1 - inlclude large paltforms, in zigzag order .
+* Level 2 - has a smaller paltrforms, and the gap between them is bigger.
+* Level 3 - we added moving paltforms, the player has to jump in the right timing.
+* Level 4 - has enemies (smilies) , each touch wiil defeat the player and return him to the level's begin.
+* Level 5 - mix of all the aspects, it's require a high control in the player movement and his jumps.
 
 
 
