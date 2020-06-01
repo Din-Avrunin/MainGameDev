@@ -43,9 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07d3f1031494b934cbcb27d80a6633c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 4
+  time: 2
   _enemyPrefabs: {fileID: 0}
   _enemyContainer: {fileID: 0}
-  up: 8
+  up: 4
   x: 0
-  down: -8
+  down: -2

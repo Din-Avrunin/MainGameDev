@@ -7,10 +7,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6838719989545746486, guid: dab8734f94fe9f340ae2c12681688978,
+        type: 3}
+      propertyPath: WaitForDestroy
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2415416990993523841, guid: dab8734f94fe9f340ae2c12681688978,
         type: 3}
       propertyPath: m_GravityScale
-      value: 0
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5244902445318966178, guid: dab8734f94fe9f340ae2c12681688978,
         type: 3}
@@ -70,12 +75,12 @@ PrefabInstance:
     - target: {fileID: 5244902445318966182, guid: dab8734f94fe9f340ae2c12681688978,
         type: 3}
       propertyPath: Speed
-      value: -5
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 5244902445318966201, guid: dab8734f94fe9f340ae2c12681688978,
         type: 3}
       propertyPath: m_Name
-      value: Knife (1)
+      value: Knife From Right
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dab8734f94fe9f340ae2c12681688978, type: 3}

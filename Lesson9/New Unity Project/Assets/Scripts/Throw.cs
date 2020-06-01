@@ -13,4 +13,7 @@ public class Throw : MonoBehaviour
         float x = transform.position.x + (Speed * Time.deltaTime);
         transform.position = new Vector3(x, transform.position.y, 0);
     }
+    public void setSpeed(float speed) {
+        Speed = speed;
+    }
 }
