@@ -4,7 +4,7 @@
 30's first seocnd of our game. 
 Our player is a child with a balloon , his goal is to keep on the balloon (otherwise the balloon will bomb, the ballon will tear...).
 
-Demo in itch.io : ----
+Demo in itch.io: https://aripash.itch.io/a-story-of-5-balloonsdemo
 
 
 ## Rules and Control:
@@ -26,10 +26,3 @@ and his throw power [managed here](https://github.com/dobzik/MainGameDev/blob/ma
   * Mali Maafe from : https://www.playonloop.com/royalty-free-music/world-and-travel/
 * Player (kid) from: https://www.kenney.nl/assets/platformer-characters
 * The rest of the assets we created ourselves.
-
-
-
-## Notes - resolution issue's:
-We had to fit the resolution for the itch.io ,so:
-* In unity - if you don't see the sides walls: you should change the resolution from 'Free aspect' to custom resolution of 1920 X 1080.
-* In itch.io - If you have a resolution issue's, please zoom out it's should fix it.
