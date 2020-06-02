@@ -15,9 +15,7 @@ public class Rope : MonoBehaviour
     void Start()
     {
         // Add a Line Renderer to the GameObject
-        line = this.gameObject.AddComponent<LineRenderer>();
-        // Set the width of the Line Renderer
-        line.SetWidth(0.05F, 0.05F);
+        line = this.gameObject.GetComponent<LineRenderer>();
         // Set the number of vertex fo the Line Renderer
         line.SetVertexCount(2);
     }
@@ -29,7 +27,7 @@ public class Rope : MonoBehaviour
         if (Baloon != null && Player != null)
         {
             // Update position of the two vertex of the Line Renderer
-            line.SetColors(Color.black,Color.black);
+         //   line.material.color = Color.black;
             Vector3 vec = Baloon.transform.position;
             vec.z += .5f;
             line.SetPosition(0, vec);
