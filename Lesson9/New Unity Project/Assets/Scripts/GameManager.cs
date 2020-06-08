@@ -11,4 +11,7 @@ public class GameManager : MonoBehaviour
     {
         levelFailUi.SetActive(true);
     }
+    public void win() {
+        SceneManager.LoadScene(2);
+    }
 }
