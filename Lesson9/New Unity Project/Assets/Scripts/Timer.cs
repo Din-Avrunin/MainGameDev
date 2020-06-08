@@ -22,7 +22,11 @@ public class Timer : MonoBehaviour
             GameManager.win();
         }
         int t = (int)time;
-        text.text = ""+t/60+":"+t%60;
+        string s = "" + t / 60 + ":";
+        int a = t % 60;
+        if (a < 10) s = s + "0" ;
+        s = s + a;
+        text.text = s;
     }
  
 }
