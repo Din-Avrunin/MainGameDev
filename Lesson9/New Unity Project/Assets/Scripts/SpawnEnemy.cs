@@ -14,7 +14,9 @@ public class SpawnEnemy : MonoBehaviour
     [SerializeField]
     private float up = 8f;
     [SerializeField]
-    private float x = 0f;
+    private float right = 0f;
+    [SerializeField]
+    private float left = 0f;
     [SerializeField]
     private float down = -8f;
 
@@ -30,7 +32,7 @@ public class SpawnEnemy : MonoBehaviour
         while (true)
         {
 
-            Vector3 postospawn = new Vector3(x, UnityEngine.Random.Range(up, down), 0);
+            Vector3 postospawn = new Vector3(UnityEngine.Random.Range(left, right), UnityEngine.Random.Range(up, down), 0);
             GameObject new_enemy = Instantiate(_enemyPrefabs, postospawn, _enemyPrefabs.gameObject.transform.rotation);
             new_enemy.transform.parent = _enemyContainer.transform;
             //if (time.time % 10 == 0)
