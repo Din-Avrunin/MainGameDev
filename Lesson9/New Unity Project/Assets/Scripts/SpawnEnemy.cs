@@ -5,6 +5,8 @@ using UnityEngine;
 public class SpawnEnemy : MonoBehaviour
 {
     // Start is called before the first frame update
+    [SerializeField] 
+    int z = 0;
     [SerializeField]
     public float time = 4f;
     [SerializeField]
@@ -32,7 +34,7 @@ public class SpawnEnemy : MonoBehaviour
         while (true)
         {
 
-            Vector3 postospawn = new Vector3(UnityEngine.Random.Range(left, right), UnityEngine.Random.Range(up, down), 0);
+            Vector3 postospawn = new Vector3(UnityEngine.Random.Range(left, right), UnityEngine.Random.Range(up, down), z);
             GameObject new_enemy = Instantiate(_enemyPrefabs, postospawn, _enemyPrefabs.gameObject.transform.rotation);
             new_enemy.transform.parent = _enemyContainer.transform;
             //if (time.time % 10 == 0)

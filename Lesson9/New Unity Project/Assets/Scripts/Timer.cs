@@ -7,7 +7,7 @@ public class Timer : MonoBehaviour
 {
     // Start is called before the first frame update
     Text text;
-    [SerializeField] float time = 180;
+    [SerializeField] float time = 30;
     [SerializeField] GameManager GameManager;
     void Start()
     {
