@@ -9,8 +9,11 @@ public class POP : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Enemy") {
+            Debug.Log("test 10");
             GameManager.fail();
+            Debug.Log("test 12");
             Destroy(this.gameObject);
+            Debug.Log("test 11");
         }
     }
 }

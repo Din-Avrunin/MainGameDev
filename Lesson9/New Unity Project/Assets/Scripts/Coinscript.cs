@@ -24,7 +24,6 @@ public class Coinscript : MonoBehaviour
         {
 
             sm.updateScore();
-            Debug.Log("tetstdsftgdgdfgd");
             Destroy(this.gameObject);
       
         }
