@@ -12,15 +12,35 @@ PrefabInstance:
       propertyPath: m_ForceMagnitude
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 1005086418203611009, guid: 4124ce6312723d1408cca69d40f37f16,
+        type: 3}
+      propertyPath: m_Offset.x
+      value: -6.0609837
+      objectReference: {fileID: 0}
+    - target: {fileID: 1005086418203611009, guid: 4124ce6312723d1408cca69d40f37f16,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: 14.200993
+      objectReference: {fileID: 0}
+    - target: {fileID: 1005086418203611009, guid: 4124ce6312723d1408cca69d40f37f16,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 42.59068
+      objectReference: {fileID: 0}
+    - target: {fileID: 1005086418203611009, guid: 4124ce6312723d1408cca69d40f37f16,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 23.773392
+      objectReference: {fileID: 0}
     - target: {fileID: 1005086418203611010, guid: 4124ce6312723d1408cca69d40f37f16,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.385243
+      value: -3.0434783
       objectReference: {fileID: 0}
     - target: {fileID: 1005086418203611010, guid: 4124ce6312723d1408cca69d40f37f16,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.488949
+      value: -6.9754257
       objectReference: {fileID: 0}
     - target: {fileID: 1005086418203611010, guid: 4124ce6312723d1408cca69d40f37f16,
         type: 3}

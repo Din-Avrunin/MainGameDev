@@ -10,12 +10,8 @@ public class UpdatePlayerBallon : MonoBehaviour
     [SerializeField] Sprite YellowBalloon;
     [SerializeField] Sprite BlueBalloon;
     [SerializeField] Sprite PurpleBalloon;
+    [SerializeField] Sprite ShieldBalloon;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
@@ -38,6 +34,9 @@ public class UpdatePlayerBallon : MonoBehaviour
                 break;
             case 4:
                 this.gameObject.GetComponent<SpriteRenderer>().sprite = PurpleBalloon;
+                break;
+            case 5:
+                this.gameObject.GetComponent<SpriteRenderer>().sprite = ShieldBalloon;
                 break;
             default:
                 this.gameObject.GetComponent<SpriteRenderer>().sprite = RedBalloon;

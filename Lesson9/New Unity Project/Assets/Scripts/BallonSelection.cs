@@ -10,6 +10,7 @@ public class BallonSelection : MonoBehaviour
     [SerializeField] Sprite YellowBalloon;
     [SerializeField] Sprite BlueBalloon;
     [SerializeField] Sprite PurpleBalloon;
+    [SerializeField] Sprite ShieldBalloon;
 
 
 
@@ -33,6 +34,9 @@ public class BallonSelection : MonoBehaviour
                 break;
             case 4:
                 this.gameObject.GetComponent<Image>().sprite = PurpleBalloon;
+                break;
+            case 5:
+                this.gameObject.GetComponent<Image>().sprite = ShieldBalloon;
                 break;
             default:
                 this.gameObject.GetComponent<Image>().sprite = RedBalloon;

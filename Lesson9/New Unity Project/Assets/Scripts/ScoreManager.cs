@@ -26,7 +26,7 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        score += Time.deltaTime; // gets a coin every frame 
+        score = PlayerPrefs.GetInt("score");
         //data2.setScore((int)score);
         PlayerPrefs.SetInt("score", (int)score);
         if (txt != null)
