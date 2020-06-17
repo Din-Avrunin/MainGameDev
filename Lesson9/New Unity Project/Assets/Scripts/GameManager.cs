@@ -7,14 +7,19 @@ using UnityEngine.SocialPlatforms.Impl;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject levelFailUi;
-    GameObject data;
-    Data data2;
+    [SerializeField] GameObject BallonSelectionUI;
+    [SerializeField] ScoreManager sm;
+    [SerializeField] bool GameIsPaused = false;
+
+    //GameObject data;
+    //Data data2;
     public void Start()
     {
-        data = GameObject.Find("Data");
-        data2 = data.GetComponent<Data>();
+        //data = GameObject.Find("Data");
+        //data2 = data.GetComponent<Data>();
 
-        int lives = data2.getLives();
+        //int lives = data2.getLives();
+        int lives = PlayerPrefs.GetInt("life");
 
         if (lives < 5)
         {
@@ -41,29 +46,72 @@ public class GameManager : MonoBehaviour
 
     }
 
+
+    void Update()
+    {
+        Debug.Log(PlayerPrefs.GetInt("score"));
+
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            if (GameIsPaused)
+            {
+                Resume();
+            }
+            else
+            {
+                PickBalloon();
+            }
+        }
+
+
+    }
+
     public void fail()
     {
-
-
-        data2.setLives(data2.getLives() - 1);
+        //data2.setLives(data2.getLives() - 1);
         //DontDestroyOnLoad(ScoreManager);
-        if (data2.getLives()<1)
+
+        int life = PlayerPrefs.GetInt("life");
+        life --; 
+
+        if (life <= 0)
         {
-            GameObject.Find("Data").GetComponent<Data>().setScore(0);
-            data2.setLives(5);
+            //GameObject.Find("Data").GetComponent<Data>().setScore(0);
+            //data2.setLives(5);
+
+            PlayerPrefs.SetInt("score", 0);
             GameObject.Find("Life 1").SetActive(false);
+            sm.resetScore();
             Time.timeScale = 0f;
             levelFailUi.SetActive(true);
             
         }
         else
         {
-            GameObject.Find("Data").GetComponent<Data>().setScore(0);
+            //GameObject.Find("Data").GetComponent<Data>().setScore(0);
+            PlayerPrefs.SetInt("life", life);
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
     public void win() {
         SceneManager.LoadScene(2);
+    }
+
+
+
+    private void PickBalloon()
+    {
+        BallonSelectionUI.SetActive(true);
+        Time.timeScale = 0f;
+        GameIsPaused = true;
+    }
+
+    public void Resume()
+    {
+        BallonSelectionUI.SetActive(false);
+        Time.timeScale = 1f;
+        GameIsPaused = false;
     }
 
 }

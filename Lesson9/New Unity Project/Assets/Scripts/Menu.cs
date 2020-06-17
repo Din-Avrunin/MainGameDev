@@ -8,24 +8,31 @@ public class Menu : MonoBehaviour
 
     public void restart() {
         Time.timeScale = 1f;
-        GameObject.Find("Data").GetComponent<Data>().setScore(0);
+        //GameObject.Find("Data").GetComponent<Data>().setScore(0);
+        PlayerPrefs.SetInt("score", 0);
+
+        PlayerPrefs.SetInt("life", 5);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         
         
     }
     public void StartGame()//the first level is allways in scene number 3
     {
-        GameObject.Find("Data").GetComponent<Data>().setScore(0);
+        //GameObject.Find("Data").GetComponent<Data>().setScore(0);
+        PlayerPrefs.SetInt("score", 0);
+        PlayerPrefs.SetInt("life", 5);
         Time.timeScale = 1f;
         SceneManager.LoadScene(3);
     }
     public void Mainmenu() {//the main menu is allways in scene number 0
-        Destroy(GameObject.Find("Data"));
+        //Destroy(GameObject.Find("Data"));
+        PlayerPrefs.SetInt("score", 0);
+        PlayerPrefs.SetInt("life", 5);
         Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
     public void Instructions(){//the instruction menu is allways in scene number 1
-        GameObject.Find("Data").GetComponent<Data>().setScore(0);
+        //GameObject.Find("Data").GetComponent<Data>().setScore(0);
         Time.timeScale = 1f;
         SceneManager.LoadScene(1);
     }
