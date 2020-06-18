@@ -8,6 +8,7 @@ TagManager:
   - Boarder
   - Coin
   - wind
+  - cat
   layers:
   - Default
   - TransparentFX

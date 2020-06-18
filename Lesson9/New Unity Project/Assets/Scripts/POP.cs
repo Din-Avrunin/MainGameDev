@@ -10,7 +10,7 @@ public class POP : MonoBehaviour
     // Start is called before the first frame update
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy") {
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "cat") {
             if (shield == 0)
             {
                 GameManager.fail();

@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
+
+
 
     public void restart() {
         Time.timeScale = 1f;
@@ -27,7 +30,8 @@ public class Menu : MonoBehaviour
         PlayerPrefs.SetInt("prevcolor", 0);
         PlayerPrefs.SetInt("activeShield", 0);
         Time.timeScale = 1f;
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
+        
     }
     public void Mainmenu() {//the main menu is allways in scene number 0
         //Destroy(GameObject.Find("Data"));
@@ -40,6 +44,13 @@ public class Menu : MonoBehaviour
         //GameObject.Find("Data").GetComponent<Data>().setScore(0);
         Time.timeScale = 1f;
         SceneManager.LoadScene(1);
+    }
+    public void instructions2()
+    {
+
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(2);
+
     }
 
 
