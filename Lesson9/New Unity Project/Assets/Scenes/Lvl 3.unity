@@ -1395,7 +1395,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bb253c9ff6878d458452c616a749c50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 60
+  time: 45
   GameManager: {fileID: 1574677934}
 --- !u!114 &392211923
 MonoBehaviour:
@@ -1634,7 +1634,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 06a734a873e901540b232155de3a9c44, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2a1696579be541a44b523f141b980c9e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.066
   m_Pitch: 1
@@ -2054,7 +2054,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cost 1500 Score
+  m_Text: Cost 600 Score
 --- !u!222 &755540539
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3657,7 +3657,7 @@ MonoBehaviour:
   BallonSelectionUI: {fileID: 1600114910}
   sm: {fileID: 95203909}
   GameIsPaused: 0
-  shieldCost: 1500
+  shieldCost: 600
   winReward: 500
 --- !u!4 &1574677935
 Transform:
