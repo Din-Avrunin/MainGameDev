@@ -26,10 +26,25 @@ PrefabInstance:
       propertyPath: WaitForDestroy
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -6838719989545746486, guid: dab8734f94fe9f340ae2c12681688978,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2415416990993523841, guid: dab8734f94fe9f340ae2c12681688978,
         type: 3}
       propertyPath: m_GravityScale
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3879439525826354501, guid: dab8734f94fe9f340ae2c12681688978,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 095540a2c81940d42a178b30644527fd, type: 2}
+    - target: {fileID: 3879439525826354501, guid: dab8734f94fe9f340ae2c12681688978,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5244902445318966178, guid: dab8734f94fe9f340ae2c12681688978,
         type: 3}
@@ -112,8 +127,15 @@ PrefabInstance:
       propertyPath: m_Name
       value: cat
       objectReference: {fileID: 0}
+    - target: {fileID: 5244902445318966201, guid: dab8734f94fe9f340ae2c12681688978,
+        type: 3}
+      propertyPath: m_TagString
+      value: cat
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5244902445318966182, guid: dab8734f94fe9f340ae2c12681688978, type: 3}
+    - {fileID: -6838719989545746486, guid: dab8734f94fe9f340ae2c12681688978, type: 3}
+    - {fileID: 3879439525826354501, guid: dab8734f94fe9f340ae2c12681688978, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: dab8734f94fe9f340ae2c12681688978, type: 3}
 --- !u!1 &7617089532381530294 stripped
 GameObject:

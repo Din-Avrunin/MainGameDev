@@ -463,6 +463,16 @@ PrefabInstance:
       propertyPath: speed
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 30126660374314181, guid: cb9f6762daeee494bbbc1b29f5163ba4,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489141025566842442, guid: cb9f6762daeee494bbbc1b29f5163ba4,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7617089532381530285, guid: cb9f6762daeee494bbbc1b29f5163ba4,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -541,10 +551,11 @@ PrefabInstance:
     - target: {fileID: 7617089532381530294, guid: cb9f6762daeee494bbbc1b29f5163ba4,
         type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: cat
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 70294639310972814, guid: cb9f6762daeee494bbbc1b29f5163ba4, type: 3}
+    - {fileID: 30126660374314181, guid: cb9f6762daeee494bbbc1b29f5163ba4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: cb9f6762daeee494bbbc1b29f5163ba4, type: 3}
 --- !u!1 &190140482 stripped
 GameObject:

@@ -13,31 +13,37 @@ public class Destroyed : MonoBehaviour
     [SerializeField] float blockedGravity = 1;
     Throw Throw;
     Rigidbody2D rg;
-     public void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
         string tag = collision.gameObject.tag;
-        if ((tag == "Player" || tag == "Boarder") && this.tag=="Cat")
-        {
-            Destroy(this.gameObject);
-        }
-        else if (tag == "Player" || tag=="Boarder") {
-            NumberofCollisions--;
-            if (NumberofCollisions == 0) {
-                animator.SetBool("isBreak", true);
-                Throw = gameObject.GetComponent<Throw>();
-                Throw.setSpeed(0);
-                rg= gameObject.GetComponent<Rigidbody2D>();
-                rg.gravityScale = blockedGravity;
-                StartCoroutine(w(WaitForDestroy));
-                
-                
+        if (tag == "Player" || tag == "Boarder"){
+            if (this.tag == "cat")
+            {
+                StartCoroutine( w(WaitForDestroy));
+
+            }
+            else
+            {
+                NumberofCollisions--;
+                if (NumberofCollisions == 0)
+                {
+                    animator.SetBool("isBreak", true);
+                    Throw = gameObject.GetComponent<Throw>();
+                    Throw.setSpeed(0);
+                    rg = gameObject.GetComponent<Rigidbody2D>();
+                    rg.gravityScale = blockedGravity;
+                    StartCoroutine(w(WaitForDestroy));
+
+
+                }
             }
         }
     }
     public IEnumerator w(float s)
     {
+
         yield return new WaitForSeconds(s);
         Destroy(this.gameObject);
-
+ 
     }
 }

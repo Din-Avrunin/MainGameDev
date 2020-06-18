@@ -51,7 +51,6 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(PlayerPrefs.GetInt("score"));
 
 
         if (Input.GetKeyDown(KeyCode.P))
