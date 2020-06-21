@@ -8,10 +8,12 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject levelFailUi;
     [SerializeField] GameObject BallonSelectionUI;
+    [SerializeField] GameObject LevelCompleteUI;
     [SerializeField] ScoreManager sm;
     [SerializeField] bool GameIsPaused = false;
     [SerializeField] int shieldCost=200;
     [SerializeField] int winReward = 500;
+
 
     //GameObject data;
     //Data data2;
@@ -99,7 +101,8 @@ public class GameManager : MonoBehaviour
     public void win() {
         PlayerPrefs.SetInt("score", PlayerPrefs.GetInt("score") + winReward);
         PlayerPrefs.SetInt("color", PlayerPrefs.GetInt("prevcolor"));
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        LevelCompleteUI.SetActive(true);
+        
     }
 
 
@@ -126,5 +129,8 @@ public class GameManager : MonoBehaviour
         }
         return false;
     }
+
+
+    
 
 }

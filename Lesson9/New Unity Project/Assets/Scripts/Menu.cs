@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
-{
 
+
+{
 
 
     public void restart() {
@@ -30,7 +31,7 @@ public class Menu : MonoBehaviour
         PlayerPrefs.SetInt("prevcolor", 0);
         PlayerPrefs.SetInt("activeShield", 0);
         Time.timeScale = 1f;
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(2);
         
     }
     public void Mainmenu() {//the main menu is allways in scene number 0
@@ -44,13 +45,6 @@ public class Menu : MonoBehaviour
         //GameObject.Find("Data").GetComponent<Data>().setScore(0);
         Time.timeScale = 1f;
         SceneManager.LoadScene(1);
-    }
-    public void instructions2()
-    {
-
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(2);
-
     }
 
 

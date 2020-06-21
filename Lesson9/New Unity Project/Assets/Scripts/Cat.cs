@@ -18,24 +18,16 @@ public class Cat : MonoBehaviour
     void Update()
     {
 
+        
+
         float otherX = player.transform.position.x;
         float otherY = player.transform.position.y;
         float x = transform.position.x;
         float y = transform.position.y;
-        if (x>otherX)
-        {
-            x -= Time.deltaTime * speed;
-        }
-        else
-            x += Time.deltaTime * speed;
-        if (y > otherY)
-        {
-            y -= Time.deltaTime * speed;
-        }
-        else
-            y += Time.deltaTime * speed;
-        Vector3 vec = new Vector3(x, y, 0);
-        transform.position = vec;
+
+        Vector3 vec = new Vector3(otherX - x, otherY - y, 0);
+        vec *= Time.deltaTime * speed ;
+        transform.position += vec;
 
     }
     private void OnCollisionEnter2D(Collision2D collision)
