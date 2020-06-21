@@ -16,7 +16,7 @@ public class Destroyed : MonoBehaviour
     public void OnCollisionEnter2D(Collision2D collision)
     {
         string tag = collision.gameObject.tag;
-        if (tag == "Player" || tag == "Boarder"){
+        if (tag == "Player" || tag == "Boarder"|| tag=="cat"){
             if (this.tag == "cat")
             {
                 StartCoroutine( w(WaitForDestroy));

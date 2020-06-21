@@ -1857,17 +1857,17 @@ PrefabInstance:
     - target: {fileID: -792916194209884684, guid: cb9f6762daeee494bbbc1b29f5163ba4,
         type: 3}
       propertyPath: speed
-      value: 1
+      value: 0.35
       objectReference: {fileID: 0}
     - target: {fileID: 7617089532381530285, guid: cb9f6762daeee494bbbc1b29f5163ba4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.274
+      value: 4.98
       objectReference: {fileID: 0}
     - target: {fileID: 7617089532381530285, guid: cb9f6762daeee494bbbc1b29f5163ba4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.231
+      value: -0.994
       objectReference: {fileID: 0}
     - target: {fileID: 7617089532381530285, guid: cb9f6762daeee494bbbc1b29f5163ba4,
         type: 3}
@@ -1917,12 +1917,12 @@ PrefabInstance:
     - target: {fileID: 7617089532381530285, guid: cb9f6762daeee494bbbc1b29f5163ba4,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2635106
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 7617089532381530285, guid: cb9f6762daeee494bbbc1b29f5163ba4,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2635106
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 7617089532381530285, guid: cb9f6762daeee494bbbc1b29f5163ba4,
         type: 3}
@@ -1937,7 +1937,7 @@ PrefabInstance:
     - target: {fileID: 7617089532381530294, guid: cb9f6762daeee494bbbc1b29f5163ba4,
         type: 3}
       propertyPath: m_TagString
-      value: Enemy
+      value: cat
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 70294639310972814, guid: cb9f6762daeee494bbbc1b29f5163ba4, type: 3}

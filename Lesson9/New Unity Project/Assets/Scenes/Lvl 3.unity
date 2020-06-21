@@ -463,7 +463,7 @@ PrefabInstance:
     - target: {fileID: -792916194209884684, guid: cb9f6762daeee494bbbc1b29f5163ba4,
         type: 3}
       propertyPath: speed
-      value: 0.25
+      value: 0.125
       objectReference: {fileID: 0}
     - target: {fileID: 30126660374314181, guid: cb9f6762daeee494bbbc1b29f5163ba4,
         type: 3}
@@ -3666,7 +3666,7 @@ MonoBehaviour:
   LevelCompleteUI: {fileID: 2013009535}
   sm: {fileID: 95203909}
   GameIsPaused: 0
-  shieldCost: 100
+  shieldCost: 600
   winReward: 500
 --- !u!4 &1574677935
 Transform:
