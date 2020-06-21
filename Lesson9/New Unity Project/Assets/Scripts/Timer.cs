@@ -9,6 +9,7 @@ public class Timer : MonoBehaviour
     Text text;
     [SerializeField] float time = 30;
     [SerializeField] GameManager GameManager;
+    bool levelOver = false;
     void Start()
     {
         text = gameObject.GetComponent<Text>();
@@ -19,7 +20,11 @@ public class Timer : MonoBehaviour
     {
         time -= Time.deltaTime;
         if (time < 0.1) {
-            GameManager.win();
+            if(!levelOver)
+            {
+                levelOver = true;
+                GameManager.win();
+            }
         }
         int t = (int)time;
         string s = "" + t / 60 + ":";
