@@ -16,6 +16,6 @@ public class LevelText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Text.text = "Level " + (SceneManager.GetActiveScene().buildIndex-2);
+        Text.text = "Level " + (SceneManager.GetActiveScene().buildIndex-1);
     }
 }
