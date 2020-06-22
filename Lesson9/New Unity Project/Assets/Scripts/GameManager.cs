@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] bool GameIsPaused = false;
     [SerializeField] int shieldCost=200;
     [SerializeField] int winReward = 500;
+    bool gameEnd = false;
 
 
     //GameObject data;
@@ -75,32 +76,36 @@ public class GameManager : MonoBehaviour
     {
         //data2.setLives(data2.getLives() - 1);
         //DontDestroyOnLoad(ScoreManager);
-
-        int life = PlayerPrefs.GetInt("life");
-        life --; 
-
-        if (life <= 0)
+        if (!gameEnd)
         {
-            //GameObject.Find("Data").GetComponent<Data>().setScore(0);
-            //data2.setLives(5);
+            int life = PlayerPrefs.GetInt("life");
+            life --;
 
-            PlayerPrefs.SetInt("score", 0);
-            GameObject.Find("Life 1").SetActive(false);
-            sm.resetScore();
-            Time.timeScale = 0f;
-            levelFailUi.SetActive(true);
-            
-        }
-        else
-        {
-            //GameObject.Find("Data").GetComponent<Data>().setScore(0);
-            PlayerPrefs.SetInt("life", life);
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+       
+            if (life <= 0)
+            {
+                //GameObject.Find("Data").GetComponent<Data>().setScore(0);
+                //data2.setLives(5);
+
+                PlayerPrefs.SetInt("score", 0);
+                GameObject.Find("Life 1").SetActive(false);
+                sm.resetScore();
+                Time.timeScale = 0f;
+                levelFailUi.SetActive(true);
+
+            }
+            else
+            {
+                //GameObject.Find("Data").GetComponent<Data>().setScore(0);
+                PlayerPrefs.SetInt("life", life);
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
         }
     }
     public void win() {
         PlayerPrefs.SetInt("score", PlayerPrefs.GetInt("score") + winReward);
         PlayerPrefs.SetInt("color", PlayerPrefs.GetInt("prevcolor"));
+        gameEnd = true;
         LevelCompleteUI.SetActive(true);
         
     }
