@@ -27,7 +27,7 @@ public class Coinscript : MonoBehaviour
             Destroy(this.gameObject);
       
         }
-        else if (otherTag == "Enemy" || otherTag == "Cat")
+        else if (otherTag == "Enemy" || otherTag == "cat")
         {
             Destroy(this.gameObject);
         }

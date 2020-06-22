@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 7155336909430429411}
   - component: {fileID: 7155336909430429414}
   - component: {fileID: 7155336909430429415}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: player_idle
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  animation: {fileID: 0}
 --- !u!50 &7155336909430429414
 Rigidbody2D:
   serializedVersion: 4

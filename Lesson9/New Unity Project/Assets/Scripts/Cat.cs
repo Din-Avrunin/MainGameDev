@@ -9,7 +9,7 @@ public class Cat : MonoBehaviour
 {
     [SerializeField] GameObject player;
     [SerializeField] float speed = 1;
-    bool playerBlock = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +20,7 @@ public class Cat : MonoBehaviour
     void Update()
     {
 
-
-        if (!playerBlock) { 
+ 
         float otherX = player.transform.position.x;
         float otherY = player.transform.position.y;
         float x = transform.position.x;
@@ -32,7 +31,7 @@ public class Cat : MonoBehaviour
         vec.y /= Math.Abs(vec.y);
         vec *= Time.deltaTime * speed;
         transform.position += vec;
-    }
+
 
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -41,16 +40,9 @@ public class Cat : MonoBehaviour
 
         {
             GetComponent<AudioSource>().Play();
-            playerBlock = true;
+
         }            
     }
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        if (collision.gameObject.tag == "Player")
-        {
-            playerBlock = false;
-        }
 
-    }
 
 }
