@@ -2777,7 +2777,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 70
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2791,7 +2791,8 @@ MonoBehaviour:
   m_Text: "Enemies:\n\nKnife: \nThe knife moves in a stright line, gravity works
     on the knife so be careful of the angels.\n\nSpike ball:\nThe ball falls from
     the sky, be carefull not to stand to close to the top of the screen.\n\nCat:\nthe
-    cat loves to pop the balloon, dont let him touch it."
+    cat loves to pop the balloon, dont let him touch it.\n\nyou can block all of
+    them with the player or a shield."
 --- !u!222 &1621644269
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3014,7 +3015,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 662, y: 107}
+  m_AnchoredPosition: {x: 645, y: 164}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1732073440
@@ -3088,7 +3089,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 634, y: -231}
+  m_AnchoredPosition: {x: 684, y: -250}
   m_SizeDelta: {x: 250, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1809048831
@@ -3642,7 +3643,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 70
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -3656,7 +3657,8 @@ MonoBehaviour:
   m_Text: "Enemies:\n\nKnife: \nThe knife moves in a stright line, gravity works
     on the knife so be careful of the angels.\n\nSpike ball:\nThe ball falls from
     the sky, be carefull not to stand to close to the top of the screen.\n\nCat:\nthe
-    cat loves to pop the balloon, dont let him touch it."
+    cat loves to pop the balloon, dont let him touch it.\n\nyou can block all of
+    them with the player or a shield."
 --- !u!222 &2083984224
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3699,7 +3701,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 180, y: 180, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 677, y: 370}
+  m_AnchoredPosition: {x: 620, y: 427}
   m_SizeDelta: {x: 300, y: 300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2098441833
