@@ -1,28 +1,29 @@
 # A Tale of five balloons:
 
 ### Game description:
-30's first seocnd of our game. 
-Our player is a child with a balloon , his goal is to keep on the balloon (otherwise the balloon will bomb, the ballon will tear...).
+Mother brought for you a balloon, could you keep it??
 
-Demo in itch.io: https://aripash.itch.io/a-story-of-5-balloonsdemo
+Game in itch.io: https://aripash.itch.io/five-balloons
 
 
 ## Rules and Control:
- * Movement control with arrows
- * Failing while the balloon touch the knife
- * The kid can defand the balloon by touching the knife with his body 
-
- # Excercies Requirement:
-## Script's components and game development control:
-* All the player movement is managed [here](https://github.com/dobzik/MainGameDev/blob/master/Lesson9/New%20Unity%20Project/Assets/Scripts/Move.cs)
-* The rope and the connection between the kid and the balloon [coded here](https://github.com/dobzik/MainGameDev/blob/master/Lesson9/New%20Unity%20Project/Assets/Scripts/Rope.cs) 
-* The knife's spawn is [managed here](https://github.com/dobzik/MainGameDev/blob/master/Lesson9/New%20Unity%20Project/Assets/Scripts/SpawnEnemy.cs) 
-and his throw power [managed here](https://github.com/dobzik/MainGameDev/blob/master/Lesson9/New%20Unity%20Project/Assets/Scripts/Throw.cs)
-* The knife's distroy with annimation [managed here](https://github.com/dobzik/MainGameDev/blob/master/Lesson9/New%20Unity%20Project/Assets/Scripts/Destroyed.cs) 
-* Menu's buttons [managed here](https://github.com/dobzik/MainGameDev/blob/master/Lesson9/New%20Unity%20Project/Assets/Scripts/Menu.cs)
+ * Use the Keyboard to move the player.
+ * When the player moves, he drags the balloon after him.
+ * Avoid touching the obstacles with the balloon.  Survive long enough to move to the next level.
+* Pressing p will pause the game and open the shop.
+* At the shop you can either buy a shield by clicking on the gray balloon or you can switch the balloon's color.
+* Tornado will draw almost everything to it.
+Don't worry, nothing can hurt the child. 
+* Enemies:
+  * _Knife_: The knife moves in a stright line, gravity works on the knife so be careful of the angels.
+  * _Spike ball:_The ball falls from the sky, be carefull not to stand to close to the top of the screen.
+  * _Cat_: the cat loves to pop the balloon, dont let him touch it.
+* you can block all of them with the player or a shield.
 
 # Assets
 * Music 
-  * Mali Maafe from : https://www.playonloop.com/royalty-free-music/world-and-travel/
+  * https://www.playonloop.com/royalty-free-music/world-and-travel/
 * Player (kid) from: https://www.kenney.nl/assets/platformer-characters
+* Tornado from:
+* Cat from: 
 * The rest of the assets we created ourselves.
